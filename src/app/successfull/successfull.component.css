@@ -1,0 +1,49 @@
+.page{
+    /* background-color: #090C28; */
+    text-align: center;
+}
+.title{
+    background-color: #090C28;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 1% 0 1% 0;
+    text-align: center;
+}
+.thank{
+    color: rgb(90, 78, 78);
+    font-size: 30px;
+    font-weight: 600;
+    margin: 3% 0 3% 0;
+}
+.msg{
+    color: black;
+    font-size: 20px;
+    margin: 3% 0 3% 0;
+    font-weight: 600;
+}
+.login{
+    background-color:  white;
+    color: #00836C;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 20%;
+    padding: 0.7% 0 0.7%  0;
+    /* padding: 0.7% 8% 0.7% 8%; */
+    border: 1px solid #00836C;
+}
+.View{
+    background-color:  white;
+    color: #00836C;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 20%;
+    padding: 0.7% 0 0.7%  0;
+    /* padding: 0.7% 5% 0.7% 5%; */
+    border: 1px solid #00836C;
+}
+.mb{
+    padding-bottom: 5%;
+}

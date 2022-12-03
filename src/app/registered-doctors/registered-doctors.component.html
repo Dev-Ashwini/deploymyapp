@@ -1,0 +1,39 @@
+<div class="page">
+    <div class="title">Doctors</div>
+    <div class="Registered">Registered Doctors</div>
+    <div class="form-reg">
+        <div class="card" *ngFor="let card of doctorData">
+            <!-- <div class="table-page"> -->
+            <div class="table-name">
+                <img src="assets/images/Oval.png" alt="" width="25%" height="25%">
+                <div class="headtext">
+                    <div class="name">{{card.name}}</div>
+                    <div class="degree">{{card.degree}} <span>{{card.degree1}}</span></div>
+                    <div class="graypart">
+                        <img src="assets/images/clock.png" alt="" width="15%" height="15%">
+                        <span>Next Slot: 11:00PM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="df">
+                <div class="experice">Experience</div>
+                <div class="fees">Fees</div>
+            </div>
+            <div class="df">
+                <div class="experices">{{card.exp}}</div>
+                <div class="online">&#x20b9; <span>{{card.onlinefee}}</span> <span class="online2"> Online
+                        Consult</span>
+                </div>
+            </div>
+            <div class="df">
+                <div class="experices"></div>
+                <div class="online3">&#x20b9; <span>{{card.personfee}}</span> <span class="online2"> In-Person
+                        Consult</span></div>
+            </div>
+            <div class="tc">
+                <button class="book-btn" type="submit">Book Appointment</button>
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,138 @@
+.page{
+    /* text-align: center; */
+    background-color: whitesmoke;
+}
+.title{
+    background-color: #090C28;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 1% 0 1% 0;
+    text-align: center;
+}
+.Registered{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(56, 49, 49);
+    padding: 1% 0 1% 0;
+    /* text-align: left; */
+    margin-left: 38%;
+}
+.form-reg{
+    display: grid;
+    place-content: center;
+}
+.card{
+    width:60%;
+    padding: 4% 1% 4% 1%;
+    /* height: 40%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 2% 18%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .table-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+  } */
+  .table-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+  }
+.headtext {
+      /* color: #12344d;
+      font-size: 18px;
+      font-weight: 600; */
+      margin-left: 15px;
+}
+.name{
+    font-size: 18px;
+    font-weight: 600;
+    color: black; 
+}
+.degree{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(85, 81, 81); 
+}
+.graypart{
+    background-color: rgb(184, 181, 181);
+    border-radius: 50px;
+    padding: 2% 5% 2% 5%;
+    width: 80%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2%;
+}
+.df{
+    display: flex;
+    align-items: center;
+    padding: 1% 2% 1% 2%;
+    width: 100%;
+}
+.experice{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    width:30%;
+}
+.fees{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 8%;
+    color: black;
+    width:70%;
+}
+.experices{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    width:30%;
+}
+/* .fees1{
+    width:70%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 8%;
+    color: black;
+} */
+.online{
+    font-size: 16px;
+    font-weight: 500;
+    width:70%;
+    margin-left: 10%;
+}
+.online2{
+    font-size: 16px;
+    font-weight: 500;
+    width:70%;
+    color: rgb(168, 164, 164);
+}
+.online3{
+    font-size: 16px;
+    font-weight: 500;
+    width:70%;
+    margin-left: 10%;
+}
+.tc{
+    text-align: center;
+}
+.book-btn{
+    background-color: #499B2F;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 80%;
+    margin: 3% 0% 1% 0%;
+    padding: 2% 7% 2% 7%;
+    border: 1px solid #499B2F; 
+}

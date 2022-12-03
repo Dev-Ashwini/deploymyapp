@@ -1,0 +1,79 @@
+<!-- <p>register works!</p> -->
+<div class="page">
+    <div class="title">Registration</div>
+    <div class="contact">Contact Information</div>
+    <form class="form-reg" [formGroup]="registrationForm" (ngSubmit)="submit()">
+        <div class="form-div">
+            <span class="input-title">Mobile Number</span>
+            <input type="text" placeholder="Mobile Number" formControlName="mblno">
+            <img src="assets/images/addressBook.png" alt="addressImage" width="15px" height="20px" class="imageinside">
+            <div class="error" *ngIf="getForm.mblno?.errors?.required && getForm.mblno.touched">This Field is Mandatory.
+            </div>
+        </div>
+        <div class="form-div">
+            <span class="input-title">Email Address</span>
+            <input type="email" placeholder="Email Address" formControlName="email" />
+            <div class="" *ngIf="getForm.email?.errors?.required && getForm.email.touched">
+                <div class=" error">This Field is Mandatory.</div>
+            </div>
+        </div>
+        <div class="form-div">
+            <span class="input-title">Full Name</span>
+            <input type="email" placeholder="Full Name" formControlName="email" formControlName="name" />
+            <div class="" *ngIf="getForm.name?.errors?.required && getForm.name.touched">
+                <div class=" error">This Field is Mandatory.</div>
+            </div>
+        </div>
+        <div class="form-div">
+            <span class="input-title">Set Password</span>
+            <input [type]="showPassword ? 'text' : 'password'" placeholder="Set Password" formControlName="setpassword">
+            <img src="assets/images/passwordShow.png" alt="addressImage" width="20px" height="20px" class="imageinside">
+            <!-- <div class="imageinside" (click)="togglePasswordVisibility()">
+                {{showPassword?<img src="assets/images/passwordHide.png" alt="addressImage" width="20px" height="20px">
+                : <img src="assets/images/passwordShow.png" alt="addressImage" width="20px" height="20px">}}
+            </div> -->
+            <div class="error" *ngIf="getForm.setpassword?.errors?.required && getForm.setpassword.touched">This Field
+                is Mandatory.</div>
+        </div>
+        <div class="form-div">
+            <span class="input-title">Confirm Password</span>
+            <input type="text" placeholder="Confirm Password" formControlName="confirmpassword">
+            <img src="assets/images/passwordHide.png" alt="addressImage" width="20px" height="20px" class="imageinside"
+                (click)="togglePasswordVisibility()">
+            <div class="error" *ngIf="getForm.confirmpassword.errors?.required && getForm.confirmpassword.touched">This
+                Field is Mandatory.</div>
+        </div>
+        <div class="form-div">
+            <span class="input-title">Date of Graduation</span>
+            <input type="date" placeholder="Date of Graduation" formControlName="graduation">
+            <div class="error" *ngIf="getForm.graduation.errors?.required && getForm.graduation.touched">This Field is
+                Mandatory.</div>
+        </div>
+        <div class="form-div">
+            <span class="input-title">Degree 1</span>
+            <input type="text" placeholder="Degree 1" formControlName="degree">
+            <div class="error" *ngIf="getForm.degree.errors?.required && getForm.degree.touched">This Field is
+                Mandatory.</div>
+        </div>
+        <div class="form-div">
+            <span class="input-title">Degree 2</span>
+            <input type="text" placeholder="Degree 2" formControlName="degree2">
+            <div class="error" *ngIf="getForm.degree2.errors?.required && getForm.degree2.touched">This Field is
+                Mandatory.</div>
+        </div>
+        <button class=" add-btn" (click)="$event.preventDefault(); addTable()">Add Another</button>
+        <div class="form-div" [hidden]="!tableShow">
+            <span class="input-title">Online Consult fee</span>
+            <!-- <img src="assets/images/money.png" alt="addressImage" width="15px" height="15px" class="rupeeinside"> -->
+            <input type="text" placeholder="Online Consult fee" formControlName="onlinefee">
+        </div>
+        <div class="form-div" [hidden]="!tableShow">
+            <span class="input-title">In Person Consult fee</span>
+            <!-- <img src="assets/images/money.png" alt="addressImage" width="15px" height="15px" class="rupeeinside"> -->
+            <input type="text" placeholder="In Person Consult fee" formControlName="personfee">
+        </div>
+        <div class="tc">
+            <button class="submit-btn" type="submit">Submit</button>
+        </div>
+    </form>
+</div>

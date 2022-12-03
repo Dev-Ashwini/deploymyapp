@@ -1,0 +1,54 @@
+.page{
+    background-color: #090C28;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 4% 0 2% 0;
+}
+.doctorphoto{
+    padding-bottom: 1%;
+    margin-right: 5%;
+}
+.buttons{
+    padding: 1% 0 1% 0;
+}
+.register{
+    background-color:  #00836C;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    /* padding: 0.7% 7% 0.7% 7%; */
+    width: 20%;
+    padding: 0.7% 0 0.7%  0;
+    /* height: 30%; */
+    border: 1px solid #00836C;
+}
+.login{
+    background-color:  white;
+    color: #00836C;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 20%;
+    padding: 0.7% 0 0.7%  0;
+    /* padding: 0.7% 8% 0.7% 8%; */
+    border: 1px solid #00836C;
+}
+.View{
+    background-color:  white;
+    color: #00836C;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 20%;
+    padding: 0.7% 0 0.7%  0;
+    /* padding: 0.7% 5% 0.7% 5%; */
+    border: 1px solid #00836C;
+}
+.mb{
+    padding-bottom: 5%;
+}
